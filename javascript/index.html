@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cypress Discovery</title>
+</head>
+
+<body>
+
+    <h1>CNH</h1>
+
+    <input type="text" nome="nome" placeholdter="Seu Primeiro Nome" />
+    <input type="number" nome="idade" placeholder="Sua Idade" />
+    <button type="button" onclick="verificarIdade" ()>"Verificar idade"</button>
+
+
+
+    <!-- <h1> Olá, <span id="text/javascript" </h1>
+ -->
+    <script type="text/javascript">
+        function verificarIdade() {
+            console.log("Verificar idade");
+            var nome = document.getElementById("nome").value;
+            var idade = document.getElementById("idade").value;
+            var resultado = document.getElementById("resultado");
+            if (idade >= 18) {
+                alert("Ok, você pode tirar sua carteira de habilitacao");
+                resultado.innerHTML = "Olá, " + nome + " você é maior de idade";
+            } else {
+                alert("Você não pode tirar sua carteira de habilitacao");
+                resultado.innerHTML = "Olá, " + nome + " você é menor de idade";
+            }
+
+
+
+
+            <!-- var nome = "Fernando";
+            var idade = 38;
+            var ativo = true;
+
+            console.log(nome);
+            console.log(typeof nome);
+
+            console.log(idade);
+            console.log(typeof idade);
+
+            console.log(ativo);
+            console.log(typeof ativo);
+
+            document.getElementById("nome").innerHTML = nome; -->
+    </script>
+</body>
+
+</html>
