@@ -9,6 +9,6 @@
   "author": "Carlovsky",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.3.1"
+    "cypress": "^9.7.0"
   }
 }
